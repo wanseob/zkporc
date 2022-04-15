@@ -1,0 +1,21 @@
+{
+  "name": "ZKPoRC",
+  "version": "0.1.0",
+  "description": "Zero Knowledge Proof of Redeem Code",
+  "repository": "https://github.com/appliedzkp/zkporc",
+  "author": "Wanseob Lim<email@wanseob.com>",
+  "workspaces": [
+    "app",
+    "circuits",
+    "contracts"
+  ],
+  "scripts": {
+    "build:app": "yarn workspace @zkporc/app build",
+    "build:contracts": "yarn workspace @zkporc/contracts build",
+    "build:circuits": "yarn workspace @zkporc/circuits compile"
+  },
+  "private": true,
+  "devDependencies": {
+    "ts-node": "^10.4.0"
+  }
+}
