@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Zkporc Smart Contracts",
   "private": true,
-  "repository": "https://github.com/zkporc/contracts",
+  "repository": "https://github.com/appliedzkp/zkporc",
   "scripts": {
     "postinstall": "#yarn build",
     "test": "hardhat test",
