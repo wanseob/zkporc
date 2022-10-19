@@ -1,4 +1,4 @@
-# ZKPoRC(Zero Knowledge Proof of Redeem Code)
+# ZKPoRC(Zero Knowledge Proof of Redeemable Code)
 ![](./assets/ZKPoRC.png)
 
 ```typescript
